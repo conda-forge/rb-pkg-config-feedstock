@@ -1,5 +1,5 @@
 {% set name = "pkg-config" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.3" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 9d7501713d98d5213a35794bc4db0edf15d5822200d3ad0e2a2b7dca45beadb3
+  sha256: 1549d7219a70ebb49f5ea8227f8a7805c8ecba5a7cb00c5f7743ecdb8eb954dd
 
 build:
   noarch: generic
